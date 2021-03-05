@@ -29,4 +29,5 @@ def simple_helper():
             print("Still listening...")                                #reprompt the user to say something
             audio = recognizer.listen(source)
 
-simple_helper()
+if name == "__main__":
+    simple_helper()
